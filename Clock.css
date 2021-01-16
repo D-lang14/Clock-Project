@@ -1,3 +1,4 @@
+/* designed background and set it properly */
 .draw {
     padding-top: 150px;
     text-align: center;
@@ -9,6 +10,8 @@
     display: flex;
     align-items: center;
   }
+
+/* designed the clock border and gave shadows */
   .design{
     justify-content: center;
     display: flex;
@@ -21,6 +24,7 @@
     inset 0 15px 15px rgba(0, 0, 0, 0.3);
   }
   
+/* set the clock here */
   .clock{
     justify-content: center;
     display: flex;
