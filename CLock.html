@@ -1,19 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Clock</title>
+    <title> Clock </title>
+    <link rel="stylesheet" href="clock.css" />
+    
   </head>
-  <link rel="stylesheet" href="clock.css" />
-  <link rel="stylesheet" href="clock.js" />
+  
   <body>
+    
     <div class="draw">
       <div class="design">
        
 <!-- SVG tag used to make CLock  -->
         <svg width="300" height="300" >
           <circle class="clock" cx="150" cy="150" r="90" fill="grey" />
+          
 <!-- Hour Hand -->
           <line
             class="hourHand"
@@ -23,6 +27,7 @@
             y2="210"
             style="stroke: #000000; stroke-linecap: round; stroke-width: 2"
           />
+          
 <!-- Minute Hand -->
           <line
             class="minuteHand"
@@ -32,6 +37,7 @@
             y2="150"
             style="stroke: #000000; stroke-linecap: round; stroke-width: 2"
           />
+          
 <!-- Second Hand -->
           <polyline
             class="secondHand"
@@ -44,7 +50,11 @@
             points="150 150, 100 100"
           />
         </svg>
+        
       </div>
+      
     </div>
+    
   </body>
+  
 </html>
